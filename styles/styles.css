@@ -230,7 +230,7 @@ section {
 }
 .header-content .right-header p {
   margin: 1rem 0 1rem 0;
-  line-height: 1.5rem;
+  line-height: 2rem;
   width: -moz-fit-content;
   width: fit-content;
   font-size: 1.5rem;
@@ -840,6 +840,9 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
+  .header-content .right-header p {
+    font-style: 1.2rem;
+  }
   .left-header .h-shape {
     display: none;
   }
@@ -879,5 +882,17 @@ section {
   }
   .section {
     margin: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  .about-container .right-about {
+    padding-top: 2.5rem;
+  }
+  .section {
+    padding: 0;
+    margin: 0;
   }
 }/*# sourceMappingURL=styles.css.map */
